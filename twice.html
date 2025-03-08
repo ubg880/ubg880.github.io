@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="content-language" content="en">
+    <meta name="external" content="true">
+    <meta name="distribution" content="Global">
+    <meta http-equiv="audience" content="General">
+    <link rel="icon" href="rs/imgs/doodle-jump.jpg1.JPG">
+    <title>Twice Unblocked</title>
+    <meta name="keywords" content="dinosaur game">
+    <meta name="news_keywords" content="dinosaur game">
+    <meta name="description" content="Dinosaur Game - Doodle Jump">
+    <link rel="stylesheet" type="text/css" href="rs/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="../rs/js/ddl.js"></script>
+</head>
+
+<body onload="loadGame()"><!--MENU-->
+<header id="header">
+    <div class="container">
+        <div class="row">
+            <div class="p-r d-flex sp al header-bar">
+                <div class="bar-logo">
+                    <a class="logo-text" href="/">Doodle Jump</a>
+                </div>
+                <nav class="navigation">
+                    <ul>
+                                                    <li>
+                                <a class="menu-link" href="../cat/all-games.html">
+                                    <span class="text-menu-link">All Games</span>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a class="menu-link" href="/drift-boss.html">
+                                    <span class="text-menu-link">Drift Boss</span>
+                                </a>
+                            </li>
+                                            </ul>
+                </nav>
+                <div class="center-box merge_icon icon-menu-mobile">
+                    <svg fill="#555" height="24" viewBox="0 -21 384 384" width="24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="m362.667969 0h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                        <path d="m362.667969 128h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                        <path d="m362.667969 256h-341.335938c-11.753906 0-21.332031 9.578125-21.332031 21.332031v42.667969c0 11.753906 9.578125 21.332031 21.332031 21.332031h341.335938c11.753906 0 21.332031-9.578125 21.332031-21.332031v-42.667969c0-11.753906-9.578125-21.332031-21.332031-21.332031zm0 0">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!--END MENU-->
+<!--Mobil MENU-->
+<div class="mobile-dropdown" id="mobile-dropdown">
+    <div class="row">
+        <nav class="nav-mobile-controler">
+            <ul>
+                                    <li>
+                        <a class="menu-link-mobile" href="../cat/all-games.html">
+                            <span class="text-menu-link">All Games</span>
+                        </a>
+                    </li>
+                                    <li>
+                        <a class="menu-link-mobile" href="/drift-boss.html">
+                            <span class="text-menu-link">Drift Boss</span>
+                        </a>
+                    </li>
+                            </ul>
+        </nav>
+    </div>
+</div>
+<!--END Mobile menu--><!--GAME PLAY-->
+<div id="game-page" class="main">
+    <div class="container">
+
+        <div class="row">
+            <div class="frame-box-game">
+                <iframe id="iframehtml5" class="d-block" width="100%" height="600px" target="_parent" frameborder="0" border="0" scrolling="no" allowfullscreen=""></iframe>
+                <div class="header-game">
+                    <div class="box-header">
+                        <h1>Twice</h1>
+                        <div class="header-game-extend">
+                            <span class="us-expand" id="half-expand" onclick="theaterMode()">
+                                <svg class="scale-anim" width="24" height="24" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--gis" preserveAspectRatio="xMidYMid meet">
+                                    <path d="M8.5 22.5A3.5 3.5 0 0 0 5 26v48a3.5 3.5 0 0 0 3.5 3.5h83A3.5 3.5 0 0 0 95 74V26a3.5 3.5 0 0 0-3.5-3.5h-83zm3.5 7h76v41H12v-41z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span class="expand-btn" id="expand">
+                                <svg class="scale-anim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3,15 L3.11662113,15.0067277 C3.57570299,15.0600494 3.93995063,15.424297 3.99327227,15.8833789 L4,16 L4,20 L8,20 L8.11662113,20.0067277 C8.61395981,20.0644928 9,20.4871642 9,21 C9,21.5128358 8.61395981,21.9355072 8.11662113,21.9932723 L8,22 L3,22 L2.88337887,21.9932723 C2.42429701,21.9399506 2.06004937,21.575703 2.00672773,21.1166211 L2,21 L2,16 L2.00672773,15.8833789 C2.06004937,15.424297 2.42429701,15.0600494 2.88337887,15.0067277 L3,15 Z M21,15 C21.5128358,15 21.9355072,15.3860402 21.9932723,15.8833789 L22,16 L22,21 C22,21.5128358 21.6139598,21.9355072 21.1166211,21.9932723 L21,22 L16,22 C15.4477153,22 15,21.5522847 15,21 C15,20.4871642 15.3860402,20.0644928 15.8833789,20.0067277 L16,20 L20,20 L20,16 C20,15.4871642 20.3860402,15.0644928 20.8833789,15.0067277 L21,15 Z M8,2 C8.55228475,2 9,2.44771525 9,3 C9,3.51283584 8.61395981,3.93550716 8.11662113,3.99327227 L8,4 L4,4 L4,8 C4,8.51283584 3.61395981,8.93550716 3.11662113,8.99327227 L3,9 C2.48716416,9 2.06449284,8.61395981 2.00672773,8.11662113 L2,8 L2,3 C2,2.48716416 2.38604019,2.06449284 2.88337887,2.00672773 L3,2 L8,2 Z M21,2 L21.1166211,2.00672773 C21.575703,2.06004937 21.9399506,2.42429701 21.9932723,2.88337887 L22,3 L22,8 L21.9932723,8.11662113 C21.9399506,8.57570299 21.575703,8.93995063 21.1166211,8.99327227 L21,9 L20.8833789,8.99327227 C20.424297,8.93995063 20.0600494,8.57570299 20.0067277,8.11662113 L20,8 L20,4 L16,4 L15.8833789,3.99327227 C15.3860402,3.93550716 15,3.51283584 15,3 C15,2.48716416 15.3860402,2.06449284 15.8833789,2.00672773 L16,2 L21,2 Z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <span class="exit-fullscreen hidden" id="_exit_full_screen">
+                    <svg fill="#fff" width="24" height="24" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background: new 0 0 512.001 512.001;">
+                        <g>
+                            <g>
+                                <path d="M284.286,256.002L506.143,34.144c7.811-7.811,7.811-20.475,0-28.285c-7.811-7.81-20.475-7.811-28.285,0L256,227.717 L34.143,5.859c-7.811-7.811-20.475-7.811-28.285,0c-7.81,7.811-7.811,20.475,0,28.285l221.857,221.857L5.858,477.859 c-7.811,7.811-7.811,20.475,0,28.285c3.905,3.905,9.024,5.857,14.143,5.857c5.119,0,10.237-1.952,14.143-5.857L256,284.287 l221.857,221.857c3.905,3.905,9.024,5.857,14.143,5.857s10.237-1.952,14.143-5.857c7.811-7.811,7.811-20.475,0-28.285 L284.286,256.002z">
+                                </path>
+                            </g>
+                        </g>
+                    </svg>
+                </span>
+            </div>
+        </div>
+        <br />
+
+        <div class="row">
+            <div class="uk-grid-clayover">
+                        
+					<div class="uk-grid-game"><a class="uk-game-link" href="/highway-rider-extreme.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/highway-rider-extreme.jpg" title="Highway Rider Extreme" alt="Highway Rider Extreme" /><span class="text-overflow uk-game-title">Highway Rider Extreme</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/aliens-nest.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/aliens-nest.jpg" title="Aliens Nest" alt="Aliens Nest" /><span class="text-overflow uk-game-title">Aliens Nest</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/cat-gunner-super-zombie-shoot.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/cat-gunner-super-zombie-shoot.jpg" title="Cat Gunner Super Zombie Shoot" alt="Cat Gunner Super Zombie Shoot" /><span class="text-overflow uk-game-title">Cat Gunner Super Zombie Shoot</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/impossible-tic-tac-toe.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/impossible-tic-tac-toe.jpg" title="Impossible Tic Tac Toe" alt="Impossible Tic Tac Toe" /><span class="text-overflow uk-game-title">Impossible Tic Tac Toe</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/basket-and-ball.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/basket-and-ball.jpg" title="Basket And Ball" alt="Basket And Ball" /><span class="text-overflow uk-game-title">Basket And Ball</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/water-color-sort.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/water-color-sort.jpg" title="Water Color Sort" alt="Water Color Sort" /><span class="text-overflow uk-game-title">Water Color Sort</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/nightpointio.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/nightpointio.jpg" title="Nightpointio" alt="Nightpointio" /><span class="text-overflow uk-game-title">Nightpointio</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/parkour-race.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/parkour-race.jpg" title="Parkour Race" alt="Parkour Race" /><span class="text-overflow uk-game-title">Parkour Race</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/amazing-bubble-breaker.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/amazing-bubble-breaker.jpg" title="Amazing Bubble Breaker" alt="Amazing Bubble Breaker" /><span class="text-overflow uk-game-title">Amazing Bubble Breaker</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/tingly-ppyramid-solitaire.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/tingly-ppyramid-solitaire.jpg" title="Tingly Ppyramid Solitaire" alt="Tingly Ppyramid Solitaire" /><span class="text-overflow uk-game-title">Tingly Ppyramid Solitaire</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/super-fowlst-2.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/super-fowlst-2.jpg" title="Super Fowlst 2" alt="Super Fowlst 2" /><span class="text-overflow uk-game-title">Super Fowlst 2</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/australian-patience.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/australian-patience.jpg" title="Australian Patience" alt="Australian Patience" /><span class="text-overflow uk-game-title">Australian Patience</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/jollyworld.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/jollyworld.jpg" title="Jollyworld" alt="Jollyworld" /><span class="text-overflow uk-game-title">Jollyworld</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/one-hundred-castles-solitaire.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/one-hundred-castles-solitaire.jpg" title="One Hundred Castles Solitaire" alt="One Hundred Castles Solitaire" /><span class="text-overflow uk-game-title">One Hundred Castles Solitaire</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/stickman-parkour-3.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/stickman-parkour-3.jpg" title="Stickman Parkour 3" alt="Stickman Parkour 3" /><span class="text-overflow uk-game-title">Stickman Parkour 3</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/parkour-block-3d.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/parkour-block-3d.jpg" title="Parkour Block 3d" alt="Parkour Block 3d" /><span class="text-overflow uk-game-title">Parkour Block 3d</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/lethal-sniper-3d-army-soldier.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/lethal-sniper-3d-army-soldier.jpg" title="Lethal Sniper 3d Army Soldier" alt="Lethal Sniper 3d Army Soldier" /><span class="text-overflow uk-game-title">Lethal Sniper 3d Army Soldier</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/real-cars-in-city.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/real-cars-in-city.jpg" title="Real Cars In City" alt="Real Cars In City" /><span class="text-overflow uk-game-title">Real Cars In City</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/slime-laboratory-3.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/slime-laboratory-3.jpg" title="Slime Laboratory 3" alt="Slime Laboratory 3" /><span class="text-overflow uk-game-title">Slime Laboratory 3</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/life-choices-life-simulator.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/life-choices-life-simulator.jpg" title="Life Choices Life Simulator" alt="Life Choices Life Simulator" /><span class="text-overflow uk-game-title">Life Choices Life Simulator</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/sharkio.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/sharkio.jpg" title="Sharkio" alt="Sharkio" /><span class="text-overflow uk-game-title">Sharkio</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/there-is-no-game.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/there-is-no-game.jpg" title="There Is No Game" alt="There Is No Game" /><span class="text-overflow uk-game-title">There Is No Game</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/four-in-a-row.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/four-in-a-row.jpg" title="Four In A Row" alt="Four In A Row" /><span class="text-overflow uk-game-title">Four In A Row</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/dino-bros.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/dino-bros.jpg" title="Dino Bros" alt="Dino Bros" /><span class="text-overflow uk-game-title">Dino Bros</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/rio-rex.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/rio-rex.jpg" title="Rio Rex" alt="Rio Rex" /><span class="text-overflow uk-game-title">Rio Rex</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/stupid-zombies.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/stupid-zombies.jpg" title="Stupid Zombies" alt="Stupid Zombies" /><span class="text-overflow uk-game-title">Stupid Zombies</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/stick-merge.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/stick-merge.jpg" title="Stick Merge" alt="Stick Merge" /><span class="text-overflow uk-game-title">Stick Merge</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/brain-test-3-tricky-quests.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/brain-test-3-tricky-quests.jpg" title="Brain Test 3 Tricky Quests" alt="Brain Test 3 Tricky Quests" /><span class="text-overflow uk-game-title">Brain Test 3 Tricky Quests</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/monster-merge.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/monster-merge.jpg" title="Monster Merge" alt="Monster Merge" /><span class="text-overflow uk-game-title">Monster Merge</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/run-3-editor.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/run-3-editor.jpg" title="Run 3 Editor" alt="Run 3 Editor" /><span class="text-overflow uk-game-title">Run 3 Editor</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/2048.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/2048.jpg" title="2048" alt="2048" /><span class="text-overflow uk-game-title">2048</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/make-it-meme.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/make-it-meme.jpg" title="Make It Meme" alt="Make It Meme" /><span class="text-overflow uk-game-title">Make It Meme</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/slope.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/slope.jpg" title="Slope" alt="Slope" /><span class="text-overflow uk-game-title">Slope</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/ovo.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/ovo.jpg" title="Ovo" alt="Ovo" /><span class="text-overflow uk-game-title">Ovo</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/moving-truck-bounty.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/moving-truck-bounty.jpg" title="Moving Truck Bounty" alt="Moving Truck Bounty" /><span class="text-overflow uk-game-title">Moving Truck Bounty</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/eggy-car.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/eggy-car.jpg" title="Eggy Car" alt="Eggy Car" /><span class="text-overflow uk-game-title">Eggy Car</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/bearsus.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/bearsus.jpg" title="Bearsus" alt="Bearsus" /><span class="text-overflow uk-game-title">Bearsus</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/gobdun.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/gobdun.jpg" title="Gobdun" alt="Gobdun" /><span class="text-overflow uk-game-title">Gobdun</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/hop-warp.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/hop-warp.jpg" title="Hop Warp" alt="Hop Warp" /><span class="text-overflow uk-game-title">Hop Warp</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/kix-dream-soccer.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/kix-dream-soccer.jpg" title="Kix Dream Soccer" alt="Kix Dream Soccer" /><span class="text-overflow uk-game-title">Kix Dream Soccer</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/super-tunnel-rush.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/super-tunnel-rush.jpg" title="Super Tunnel Rush" alt="Super Tunnel Rush" /><span class="text-overflow uk-game-title">Super Tunnel Rush</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/slope-tunnel.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/slope-tunnel.jpg" title="Slope Tunnel" alt="Slope Tunnel" /><span class="text-overflow uk-game-title">Slope Tunnel</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/cat-room-blast.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/cat-room-blast.jpg" title="Cat Room Blast" alt="Cat Room Blast" /><span class="text-overflow uk-game-title">Cat Room Blast</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/one-button-bounce.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/one-button-bounce.jpg" title="One Button Bounce" alt="One Button Bounce" /><span class="text-overflow uk-game-title">One Button Bounce</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/short-life.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/short-life.jpg" title="Short Life" alt="Short Life" /><span class="text-overflow uk-game-title">Short Life</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/pizzapunk.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/pizzapunk.jpg" title="Pizzapunk" alt="Pizzapunk" /><span class="text-overflow uk-game-title">Pizzapunk</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/burrito-bison.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/burrito-bison.jpg" title="Burrito Bison" alt="Burrito Bison" /><span class="text-overflow uk-game-title">Burrito Bison</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/masked-forces.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/masked-forces.jpg" title="Masked Forces" alt="Masked Forces" /><span class="text-overflow uk-game-title">Masked Forces</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/dana-relics-for-sale.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/dana-relics-for-sale.jpg" title="Dana Relics For Sale" alt="Dana Relics For Sale" /><span class="text-overflow uk-game-title">Dana Relics For Sale</span></div></a></div>
+<div class="uk-grid-game"><a class="uk-game-link" href="/kart-race-3d.html"><div class="uk-wrap-image"><img width="95" height="95" src="../rs/imgs/kart-race-3d.jpg" title="Kart Race 3d" alt="Kart Race 3d" /><span class="text-overflow uk-game-title">Kart Race 3d</span></div></a></div>
+
+					
+             </div>
+        </div>
+
+        <br />
+        <div class="uk-p10">
+            <div class="row">
+                <div class="frame-box-game">
+                    <div class="text-area">
+                        <div class="d-flex us-game-info">
+                            <div class="bread-crumb">
+                                <div class="overwrite-breadcumb">
+                                    <div class="d-flex al sp bread-crumb-list">
+                                        <div class="d-flex al sp">
+                                            <a class="bread-crumb-item" href="/">Home</a>
+                                            <span class="bread-crumb-item bread-after">Twice</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-area--content">
+                            <h2>About Twice</h2><p>Dinosaur game (also called offline Chrome game) is a simple game where you control a small T-rex dinosaur and jump over obstacles to get as far as possible.</p>
+<p>Play Dinosaur game unblocked online.</p>                                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!--END GAME PLAY--><footer>
+    <script src="rs/js/jquery-3.4.1.min.js"></script>
+    <script src="rs/js/footer.js"></script>
+</footer>
+</body>
+</html>
